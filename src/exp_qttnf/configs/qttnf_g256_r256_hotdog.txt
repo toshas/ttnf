@@ -1,0 +1,29 @@
+expname = qttnf_g256_r256_hotdog
+dataset_dir = hotdog
+dataset_type = blender
+
+white_bkgd = True
+
+lrate = 3e-3
+lrate_decay = 40000
+lrate_warmup_steps = 1000
+N_samples = 512
+N_importance = 0
+N_rand = 4096
+N_iters = 80000
+i_img = 2000
+i_img_ids = [1]
+i_testset = 20000
+i_video = 80000
+
+image_downscale_factor = 1
+image_downscale_filter = antialias
+scene_scale = 0.75
+
+dim_grid = 256
+tt_rank_max = 256
+tt_rank_equal = 0
+tt_minimal_dof = 1
+init_method = normal
+dtype = float32
+checks = 0

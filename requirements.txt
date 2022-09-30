@@ -1,0 +1,14 @@
+configargparse
+imageio
+imageio-ffmpeg
+lpips
+maxvolpy
+opt_einsum
+scipy
+scikit-image
+tensorboard
+torch
+torchvision
+tqdm
+wandb
+tntorch

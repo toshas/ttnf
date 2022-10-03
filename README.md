@@ -46,6 +46,22 @@ CUDA_VISIBLE_DEVICES=0 python -m src.exp_qttnf.run_qttnf_nerf \
 
 The code performs logging to the console, tensorboard file in the experiment log directory, and also [Weights and Biases](https://www.wandb.com). Upon the first run, please enter your account credentials, which can be obtained by registering a free account with the service.
 
+## Citation
+
+Please cite our work if you found it useful:
+
+```
+@misc{obukhov2022ttnf,
+  author = {Obukhov, Anton and Usvyatsov, Mikhail and Sakaridis, Christos and Schindler, Konrad and Van Gool, Luc},
+  title = {TT-NF: Tensor Train Neural Fields},
+  year = {2022},  
+  doi = {10.48550/ARXIV.2209.15529},
+  url = {https://arxiv.org/abs/2209.15529},
+  publisher = {arXiv},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+}
+```
+
 ## License
 This software is released under a CC-BY-NC 4.0 license, which allows personal and research use only. 
 For a commercial license, please contact the authors. You can view a license summary [here](LICENSE).
